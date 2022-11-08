@@ -102,11 +102,9 @@
     "wp-graphql/wp-graphql": "^1.11",
     "funkhaus/wp-graphql-cors": "master",
     "wp-graphql/wp-graphql-acf": "^0.6.1",
-    "pristas-peter/wp-graphql-gutenberg": "^0.3.12",
     "ivanmartin33/acf-pro": "dev-acf-pro",
     "wpackagist-plugin/custom-post-type-ui": "^1.13",
-    "nicoandrade/wp-headless-trigger": "dev-master",
-    "wpackagist-plugin/wps-hide-login": "^1.9"
+    "wpackagist-plugin/classic-editor": "^1.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

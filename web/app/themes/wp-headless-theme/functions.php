@@ -9,9 +9,9 @@ require get_template_directory() . '/includes/reset-password-custom.php';
 add_action('after_setup_theme', 'remove_admin_bar');
 function remove_admin_bar()
 {
-  if (!current_user_can('administrator') && !is_admin()) {
-    show_admin_bar(false);
-  }
+	if (!current_user_can('administrator') && !is_admin()) {
+		show_admin_bar(false);
+	}
 }
 
 /* ------------------------------
@@ -24,7 +24,7 @@ function remove_admin_bar()
 
 function ff_dashboard_widget_function()
 {
-  echo '
+	echo '
 		<ul>
 			<li><a href="http://www.fingerprint-factory.com" target="_blank" title="Consulter le site Internet de l\'agence web"><strong>www.fingerprint-factory.com</strong></a></li>
 			<li>Bordeaux/ Biarritz<br /></li>
@@ -35,7 +35,7 @@ function ff_dashboard_widget_function()
 
 function ff_add_dashboard_widgets()
 {
-  wp_add_dashboard_widget('wf_dashboard_widget', 'Support technique Fingerprint Factory', 'ff_dashboard_widget_function');
+	wp_add_dashboard_widget('wf_dashboard_widget', 'Support technique Fingerprint Factory', 'ff_dashboard_widget_function');
 }
 
 add_action('wp_dashboard_setup', 'ff_add_dashboard_widgets');
@@ -46,7 +46,7 @@ add_action('wp_dashboard_setup', 'ff_add_dashboard_widgets');
  */
 function custom_admin_login()
 {
-  echo '<style>#login h1 a {
+	echo '<style>#login h1 a {
 		background-image:url("' . get_bloginfo('stylesheet_directory') . '/assets/images/logo-login-dashboard.png") !important;
 		background-size:350px 200px !important;
 		width:350px !important;
@@ -75,3 +75,5 @@ add_action('login_head', 'custom_admin_login');
 //   {
 //   }
 // }
+
+add_theme_support('post-thumbnails');
