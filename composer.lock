@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6d80393e9c56197de37d32c20a492d9",
+    "content-hash": "db135ac9041c59776e245d93664a9469",
     "packages": [
         {
             "name": "appsero/client",
@@ -51,6 +51,41 @@
                 "source": "https://github.com/Appsero/client/tree/v1.2.1"
             },
             "time": "2022-06-30T12:01:38+00:00"
+        },
+        {
+            "name": "ashhitch/wp-graphql-send-mail",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ashhitch/wp-graphql-send-mail.git",
+                "reference": "8e52f176d0f117b44d84b8b3024836ed40cdabe7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ashhitch/wp-graphql-send-mail/zipball/8e52f176d0f117b44d84b8b3024836ed40cdabe7",
+                "reference": "8e52f176d0f117b44d84b8b3024836ed40cdabe7",
+                "shasum": ""
+            },
+            "require": {
+                "wp-graphql/wp-graphql": ">=0.3.8"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ash Hitchcock",
+                    "email": "hello@ashleyhitchcock.co.uk"
+                }
+            ],
+            "description": "Send Emails via with WPGraphQL",
+            "support": {
+                "issues": "https://github.com/ashhitch/wp-graphql-send-mail/issues",
+                "source": "https://github.com/ashhitch/wp-graphql-send-mail/tree/v1.2.0"
+            },
+            "time": "2021-01-27T08:14:08+00:00"
         },
         {
             "name": "composer/installers",
